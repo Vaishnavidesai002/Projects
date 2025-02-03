@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Car Service Booking</h3>
+        <input type="text" id="customerName" placeholder="Customer Name">
+        <input type="date" id="appointmentDate">
+        <input type="text" id="customerDescription" placeholder="Description">
+        <button onclick="addAppointment()">Add Appointment</button>
+        <hr>
+        <h3>Filter by Date</h3>
+        <input type="date" id="filterDate">
+        <button onclick="filterAppointments()">Filter</button>
+        <p id="totalCount"></p>
+        <h3>Appointments</h3>
+        <div id="appointments"></div>
+    </div>
+    <script src="script.js"></script>
+    <img src="https://th.bing.com/th/id/OIP.uN1Y-wfyif65SalBVQVZAQHaFj?w=231&h=180&c=7&r=0&o=5&pid=1.7">
+</body>
+</html>
+
